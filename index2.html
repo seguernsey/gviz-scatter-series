@@ -27,7 +27,7 @@ Apache license (http://www.apache.org/licenses/LICENSE-2.0.html)
       // Adjust the cell range (e.g. A1:G7) to match data in your Google Sheet
       // In your Google Sheet, File > Publish to the Web
       var query = new google.visualization.Query(
-          'https://docs.google.com/spreadsheet/pub?key=0AtmGKybdRLlZdHBvSGxIdEJoc1YxNUxtTThGbU9Qcnc&range=A1:E62&gid=1');
+          'https://docs.google.com/spreadsheet/pub?key=0AtmGKybdRLlZdHBvSGxIdEJoc1YxNUxtTThGbU9Qcnc&single=true&gid=1&output=html&range=A1:E62');
     
       // Send the query with a callback function.
       query.send(handleQueryResponse);
